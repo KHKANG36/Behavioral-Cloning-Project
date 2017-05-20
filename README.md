@@ -1,4 +1,3 @@
-
 # **Built the convolutional neural network(CNN) model end-to-end driving in a simulator, using TensorFlow and Keras**
 
 This is a project for Udacity Self-Driving Car Nanodegree program. In this project I built the convolutional neural network(CNN) to drive in a simulator by cloning driving (steering) behavior, using TensorFlow and Keras. The CNN model is implemented in the file `Model_RyanKang.ipynb`. 
@@ -14,7 +13,7 @@ This is a project for Udacity Self-Driving Car Nanodegree program. In this proje
 ## Run the Project 
 
 To run this project, you have to download Udacity self-driving car simulator first from [here](https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e/modules/6df7ae49-c61c-4bb2-a23e-6527e69209ec/lessons/46a70500-493e-4057-a78e-b3075933709d/concepts/1c9f7e68-3d2c-4313-9c8d-5a9ed42583dc). 
-After driving a couple of laps at the training mode, you can get "driving_log.csv" file. Run the `Model_RyanKang.ipynb` on the ipython notebook, and it generate "model.h5" file. Run 
+After driving a couple of laps at the training mode, you can get "driving_log.csv" file. Then, run the `Model_RyanKang.ipynb` on the ipython notebook, and it generate "model.h5" file. Run 
 ```
 python drive.py model.h5
 ```
@@ -24,7 +23,7 @@ in the terminal. Run your simulator at the autonomous mode. You can see the self
 
 In this project, I implemented the pipeline with below steps: 
 
-1. Gathered first 2 laps on track of center lane driving.Below is an example of center camera image and sterring angle 
+1. Gathered first 2 laps on track of center lane driving. Below is an example of center camera image and steering angle 
 ![Test image](https://github.com/KHKANG36/Behavioral-Cloning-Project/blob/master/mydata/Sample_image1.jpg)
 2. Collected 1 more lap of smooth curving data in order to strengthen learning at curve road 
 ![Test image](https://github.com/KHKANG36/Behavioral-Cloning-Project/blob/master/mydata/Sample_image2.jpg)
