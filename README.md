@@ -27,7 +27,7 @@ In this project, I implemented the pipeline with below steps:
 ![Test image](https://github.com/KHKANG36/Behavioral-Cloning-Project/blob/master/mydata/Sample_image1.jpg)
 2. Collected 1 more lap of smooth curving data in order to strengthen learning at curve road 
 ![Test image](https://github.com/KHKANG36/Behavioral-Cloning-Project/blob/master/mydata/Sample_image2.jpg)
-3. Augment 3 times of data by using center/right/left camera. Correct fixed value (+-0.2) of steering angle for left/right camera
+3. Augment 3 times of data by using center/right/left camera. Correct fixed value (+-0.2) of steering angle for left/right
 ![Test image](https://github.com/KHKANG36/Behavioral-Cloning-Project/blob/master/mydata/Sample_image3.jpg)
 4. Implement convolutional neural network (CNN) model using 4 convolutional layers and 3 fully connected layers with dropout of 0.5
 5. Train the driving behavior and test it on autonomous mode in simulator (The result video had been uploaded with project files)
